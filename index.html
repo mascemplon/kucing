@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>	mas cemplon - kumpulan informasi gado gado</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/main.css" />
+	<link rel="stylesheet" type="text/css" href="style/media-queries.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,400italic,700italic' rel='stylesheet' type='text/css'/>
+	<script src="js/main.js" ></script>
+	<script src="jquery.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home">
+	<div id="wrapper">
+		
+		<header>
+			<h1><a href="blog/index.html">mas cemplon</a></h1>
+			<h2>mas cemplon <span>-</span> kumpulan informasi gado gado</h2>
+			<div class="topnav" id="myTopnav">
+  <a href="https://mascemplon.github.io/blog/index.html" class="active">Home</a>
+  <a href="/post/edukasi.html">Edukasi</a>
+  <a href="/post/internet.html">Internet</a>
+  <a href="/post/populer.html">Terpopuler</a>
+  <a href="/post/food.html">Food</a>
+  <a href="/post/">Aplikasi</a>
+  <a href="/post/kesehatan.html">Kesehatan</a>
+  <a href="/post/bisnis.html">Bisnis</a>
+  <a href="/post/media.html">media</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+		</header>
+				
+		<section id="main-content">
+			<div id="featured">
+				<marquee bgcolor="cyan" width="100%">Welcome to blog mas cemplon maaf kalau tampilannya kurang menarik :D pusing coy ngoding nya</marquee>
+				<div id="about">
+				<h3>Ads</h3>
+				<p>Iklan belom terpasang</p>
+			</div>
+			</div> <!-- END Featured -->
+
+			<hr/>
+			<div id="latest">
+				<section class="left-col">
+					<div id='rlo'>
+<script src="js/recent-post-ost-widget.js"></script>
+</div>
+					
+				</section> <!-- END Left Column -->	
+
+				<aside class="sidebar">
+				
+
+
+
+
+
+<div id="postkomik">
+<script src="js/sitemap.js"></script>	
+<judule>Rekomendasi</judule>
+<ol>
+<script src="https://postblogger.my.id/feeds/posts/default/-/Berita%20media%20sosial?orderby=published&amp;alt=json-in-script&amp;callback=startpost&amp;max-results=100">
+</script>
+</ol>
+</div>
+				</aside>
+			</div> <!-- END Latest -->
+			<div class="clearfix"></div>
+			<hr/>
+			<div id="about">
+				<h3>Ads</h3>
+				<p>Iklan belom terpasang</p>
+			</div>	
+		</section>	
+		<hr/>
+		<footer>
+		<div onload="show_div();">
+			<div style="background-color: white; border: 2px #6E2222 ridge; padding: 10px; text-align: left; height: 800px; overflow: auto; width: auto;">
+   <header class="header">
+ 
+   
+    <div class="corner-menu">
+        <div  class="login-div">
+            <img style="background-color:rgb(201, 215, 245);border-radius:50%;" class="img" src="https://1.bp.blogspot.com/-XW2Toz8561E/X_m3qSI7-qI/AAAAAAAAOP8/--SEUMJs_8YS_ETm808aCSVtanJrFrs4ACLcBGAsYHQ/s0/favicon.ico" alt="photo">
+            <p style="font-size:15px;margin-right:5px;font-family: 'Roboto Mono', monospace;" id="fetch-username-after-login">Guest</p>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a id="a_signup" style="display:none;" onclick="closeNav();document.getElementById('modal-wrapper-2').style.display='block';">Signup</a>
+            <a id="a_login" style="display:none;" onclick="closeNav();document.getElementById('modal-wrapper').style.display='block';">Login</a>
+            <a id="a_signout" style="display:none;" onclick="closeNav();signout();">SignOut</a>
+            <a id="a_reset" onclick="localStorage.clear();location.reload();">Reset Everything</a>
+        </div>
+    </div>
+    </header>
+    <hr style="display: block;width:100%;height: 1px;border: 0;border-top: 1px solid #ccc;padding: 0px;">
+
+
+
+<!----------------------------------------- Comment-box for guest --------------------------------->
+
+    <div id="new-message" class="new-message">
+        <div class="message-box">
+            <textarea id="comments" class="input-field" name="comment" onclick="writeAcomment();" placeholder="masukan komentarmu di sini atau share link web..."></textarea>
+        </div>
+        <div class="submit-button">
+            <button onclick="writeAcomment();" style="width: 8rem;margin-top:1em;margin-left:2em;" class="btn" class="button_other">Add a Comment</button>
+        </div>
+    </div>
+
+
+<!----------------------------------------- Sample - comment    --------------------------------->
+    <div id="comment-boxes">    
+            <div id="comment-box-id" class="comment-box-class">
+                <div class="photo">
+                    <img class="img" src="https://1.bp.blogspot.com/-XW2Toz8561E/X_m3qSI7-qI/AAAAAAAAOP8/--SEUMJs_8YS_ETm808aCSVtanJrFrs4ACLcBGAsYHQ/s0/favicon.ico" alt="photo">
+                </div>
+            <div class="information">
+                <div class="row1">
+                    <div class="name"><strong class="comment-name-class" id="fetch-name">Rhythm</strong></div>
+                    <div class="time_ago" id="fetch-time">5 min ago</div>
+                </div>
+                <i class="row2" class="comment-message-class" id="fetch-message">terimakasih sudah berkunjung</i>
+                <div class="row3">
+                    <div class="reply"><button id="r" class="r" class="reply" style="border:none;" onclick="canuserreply();reply_clicked(this.id);" class="button">Reply</button></div>
+                    <div class="vote">
+                        <div id="fetch-like">  
+                            <i id="a" class="fa fa-thumbs-up like fetch-like-count"  onclick="like(this.id);">0</i>
+                        </div>
+                        <div id="fetch-dislike">
+                            <i id="b" class="fa fa-thumbs-down dislike fetch-dislike-count" onclick="dislike(this.id);">0</i>
+                        </div>
+                    </div>
+                    <div class="posted_ago">1/Jan/1970</div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+<!-----------------------------------------  Login-form  --------------------------------->
+
+<div id="modal-wrapper" class="modal">
+        <form onsubmit="return false;" class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                <img class="avatar" src="https://1.bp.blogspot.com/-XW2Toz8561E/X_m3qSI7-qI/AAAAAAAAOP8/--SEUMJs_8YS_ETm808aCSVtanJrFrs4ACLcBGAsYHQ/s0/favicon.ico" alt="Avatar" class="avatar">
+                <h2 style="text-align:center">Login</h2>
+            </div>
+    
+            <div class="container">
+                <input id="log-usr" autocomplete="off" type="text" placeholder="Enter Username" name="uname" required>
+                <input id="log-psw" autocomplete="off" type="password" placeholder="Enter Password" name="psw" required>        
+                <button class="button_other" type="submit" onclick="login();">Login</button>
+                <button style="margin:2em;" onclick="document.getElementById('modal-wrapper-2').style.display='block';document.getElementById('modal-wrapper').style.display='none'" class="btn">New Signup here</button>         
+            </div>
+        </form>
+    </div>
+
+
+<!-----------------------------------------  signup-form  --------------------------------->
+
+    
+    <div id="modal-wrapper-2" class="modal">
+      
+        <form onsubmit="return false;" class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('modal-wrapper-2').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                <img src="https://1.bp.blogspot.com/-XW2Toz8561E/X_m3qSI7-qI/AAAAAAAAOP8/--SEUMJs_8YS_ETm808aCSVtanJrFrs4ACLcBGAsYHQ/s0/favicon.ico" alt="Avatar" class="avatar">
+                <h2 style="text-align:center">Sign Up here</h2>
+            </div>
+    
+            <div class="container">
+                <input id="sign-usr" autocomplete="off" type="text" placeholder="Enter Username" name="uname" required>
+                <input id="sign-psw" autocomplete="off" type="password" placeholder="Enter Password" name="psw" required>        
+                <button class="button_other" onclick="signup();" type="submit">Sign Up</button>
+                <button style="margin:2em;" class="btn" type="submit" onclick="document.getElementById('modal-wrapper-2').style.display='none';document.getElementById('modal-wrapper').style.display='block'">Already a member Login</button>
+            </div>
+        </form>
+    </div>
+
+<!----------------------------------------- Something after signup -------------------------->
+
+
+    <!-------------------------------  message box popup open after login ----------------------------->
+
+    <div id="message-box-popup" class="modal">
+            <form onsubmit="return false;" class="modal-content animate"  style="height: 60%;">
+                <div class="imgcontainer">
+                    <span style="  position: absolute;top: 0px;right: 0px;" onclick="document.getElementById('message-box-popup').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <h3 class="message-head">Enter your comment here</h3>
+                </div>
+                <div class="container" style="height: auto;margin-right: auto;margin-left: auto;">
+                    <textarea autocomplete="off" id="message-box-comments" class="input-field" name="comment" placeholder="Enter your comment here..." style="width: 85%;height: 30vh;"></textarea>
+                    <button onclick="Add_comment();" style="width: 8rem;margin-left:2em;margin-top:1em;" class="btn">Add a comment</button>  
+                </div>
+            </form>
+        </div> 
+
+
+ 
+</div>
+          </div>
+			 <div id="footer-navmenu">
+<nav id="footer-navmenu-container">
+<!-- menu navigasi footer start -->
+<ul>
+<li><a href="https://mascemplon.github.io/blog/post/about%20us.html">About</a></li>
+<li><a href="https://mascemplon.github.io/blog/post/contact%20us.html">Contact</a></li>
+<li><a href="https://mascemplon.github.io/blog/post/privacypolicy.html">Privacy Policy</a></li>
+<li><a href="https://mascemplon.github.io/blog/post/disclaimer.html">Disclaimer</a></li>
+<li><a href="https://mascemplon.github.io/blog/post/sitemap.html">Sitemap</a></li>
+</ul>
+<!-- menu navigasi footer end -->
+</nav>
+</div>
+		</footer>		
+		
+	</div> <!-- END Wrapper -->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</body>
+</html>
